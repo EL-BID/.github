@@ -1,5 +1,5 @@
-- Access this README in English. 
-- Acesse esse README em português.  
+- Access this README in [English](https://github.com/EL-BID/.github/blob/main/profile/README-EN.md). 
+- Acesse esse README em [português](https://github.com/EL-BID/.github/blob/main/profile/README-PT.md).  
 
 <img src="https://raw.githubusercontent.com/EL-BID/.github/main/BID_Eslogan_Colores_MedRes.jpeg" alt="bid logo español" width="400"/>
 
