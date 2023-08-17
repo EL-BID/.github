@@ -1,58 +1,56 @@
-- Access this README in English. 
-- Acesse esse README em português.  
+- Acceda a este READ.me en [español](https://github.com/EL-BID/.github/blob/main/profile/README.md). 
+- Acesse esse READ.me em [português](https://github.com/EL-BID/.github/blob/main/profile/README-PT.md).  
 
 <img src="https://raw.githubusercontent.com/EL-BID/.github/main/BID_Eslogan_Colores_MedRes.jpeg" alt="bid logo español" width="400"/>
 
-# Código para el Desarrollo: El compromiso del BID con código abierto 
+# Code for Development: The IDB's Commitment to Open Source 
 
-Bienvenido al GitHub del Banco Interamericano de Desarrollo (BID). Aquí encontrarás todas las herramientas desarrolladas por el Banco en código abierto.  
+Welcome to the Inter-American Development Bank’s GitHub repository. Here, you will find all the open-source tools developed by the IDB. 
 
-El BID fue la primera multilateral a establecer un repositorio de código abierto para la gestión pública, con el claro objetivo de dotar a los gestores públicos de América Latina y el Caribe de herramientas estratégicas de código abierto que les permitan amplificar el impacto de su trabajo. Creemos que, al proporcionar software de código abierto adaptado a las necesidades de los gobiernos, podemos fomentar la eficiencia la eficacia e innovación en las prácticas de gestión pública. 
+The IDB was the first multilateral institution to establish a repository of open-source software for public management, with the goal of amplifying the impact of public managers in Latin America and the Caribbean. We believe that by providing open-source software tailored to the needs of governments, we can promote efficiency, effectiveness, and innovation in public management practices. 
 
-Para acceder al repositorio completo de la iniciativa de código abierto del BID, visita [Código para el Desarrollo](http://code.iadb.org) . Allí encontrarás un amplio repositorio de más de 200 herramientas, que incluyen no sólo las herramientas creadas internamente por expertos del BID y alojadas en ese GitHub/EL-BID, sino también muchas otras desarrolladas por universidades de renombre, organizaciones sin fines de lucro, empresas tecnológicas y gobiernos y que han pasado por una curaduría del BID. 
+To access the complete repository of the IDB's open-source initiative, visit [Code for Development](http://code.iadb.org/en). There, you will find an extensive repository of over 200 tools, including not only tools developed internally by IDB experts and hosted on this GitHub/EL-BID, but also many others developed by renowned universities, non-profit organizations, technology companies, and governments, all curated by the IDB. 
 
-Todas estas herramientas están estratégicamente diseñadas para mejorar las prácticas de gestión pública en toda la región. Pueden utilizarse gratuitamente, modificarse libremente e incorporarse como componente de otros productos. 
+All these tools are strategically designed to enhance public management practices throughout the region. They can be used freely, modified, and incorporated as components of other products. 
 
-Visita nuestro sitio para conocer nuestra iniciativa de código abierto, [Código para el Desarrollo](http://code.iadb.org). 
+Visit our website to learn about our open-source initiative, [Code for Development](http://code.iadb.org/en). 
 
-## Contribuye 
+## Contribute 
 
-### 1. Comunidad Code4Dev 
+### 1. Code4Dev community 
 
-Al unirte a la comunidad de Código para el Desarrollo, estarás a la vanguardia de la transformación de las prácticas de gestión pública en América Latina y el Caribe. Juntos, podemos acelerar la adopción de soluciones de código abierto, compartir conocimientos y construir un ecosistema sostenible de bienes digitales públicos.  
+By joining the Code for Development community, you'll be at the forefront of transforming public management practices in Latin America and the Caribbean. Together, we can accelerate the adoption of open-source solutions, share knowledge, and build a sustainable ecosystem of public digital goods. 
 
-Como miembro obtendrá acceso exclusivo a un ecosistema de personas apasionadas dedicadas al código abierto y la gestión pública y tendrá acceso a talleres mensuales, diferentes canales de comunicación dentro de la red, apoyo para reutilización de herramientas y otros recursos valiosos.  
+As a member, you'll have exclusive access to a community of passionate individuals dedicated to open-source and public management. You'll also gain access to monthly workshops, various communication channels within the network, support for tool reuse, and other valuable resources. 
 
-Regístrate [aquí](https://code.iadb.org/es/code4dev).  
+Register [here](https://code.iadb.org/en/code4dev). 
 
-### 2. Comparte tu código  
+### 2. Share Your Code  
 
-Te invitamos a contribuir a nuestra comunidad del código abierto y profesionales de la gestión pública compartiendo tu código y fomentando la colaboración. Al compartir tu código, podrás hacer una valiosa contribución al avance de las prácticas de gestión pública en América Latina y el Caribe. 
+We invite you to contribute to our open-source community and public management professionals by sharing your code and fostering collaboration. By sharing your code, you can make a valuable contribution to advancing public management practices in Latin America and the Caribbean. 
 
-Buscamos herramientas como aplicaciones web y móviles, algoritmos y APIs que puedan apoyar la gestión pública y el desarrollo social y económico en diferentes escalas y contextos. Los criterios para publicación incluyen tener una licencia de código abierto, tener una documentación completa que apoye la implementación de la herramienta y pasar por un análisis de calidad del código.  
+We are looking for tools such as web and mobile applications, algorithms, and APIs that can support public management and social and economic development at different scales and contexts. Criteria for publication include having an open-source license, having comprehensive documentation to support tool implementation, and undergoing a code quality analysis. 
 
-Las herramientas nominadas a través de este [formulario](https://airtable.com/appqBwYkYJ59bamQ1/shrooKo1Nk4JBDQWV) serán consideradas para su inclusión en el repositorio de Código para el Desarrollo. 
+Tools nominated through this [form](https://airtable.com/appqBwYkYJ59bamQ1/shrooKo1Nk4JBDQWV) will be considered for inclusion in the Code for Development repository. 
 
-### 3. Comparte tu caso de uso 
+### 3. Share Your Use Case 
 
-Comparte tu experiencia y conocimientos creando un caso práctico que muestre cómo has aprovechado las herramientas de código abierto en tus proyectos. Ayúdanos a mostrar el impacto real de las soluciones de código abierto y únete para dar forma al futuro de la gestión pública en América Latina y el Caribe. 
+Share your experience and knowledge by creating a practical case that demonstrates how you have leveraged open-source tools in your projects. Help us showcase the real impact of open-source solutions and join us in shaping the future of public management in Latin America and the Caribbean. 
 
-Comparte tu caso de uso a través de ese [formulario](https://forms.office.com/r/wj4w1qsfyd).  
+Share your use case through this [form](https://forms.office.com/r/wj4w1qsfyd). 
 
-### 4. Contribuye a las herramientas desarrolladas por el BID 
+### 4. Contribute to IDB-Developed Tools 
 
-Colabora con los equipos responsables por las herramientas de código abierto del BID de las siguientes formas: 
+Collaborate with the teams responsible for IDB's open-source tools in the following ways: 
 
-#### Crea un issue: 
-Son bienvenidos los issues sobre problemas de instalación, consultas y explicación específica de alguna funcionalidad, consultas sobre el mantenimiento, actualización de dependencias, etc. Puedes usar nuestra [plantilla de issue](https://github.com/EL-BID/Plantilla-de-repositorio/blob/master/docs/issue_template.md) para esto. 
+#### Create an issue: 
+Issues related to installation problems, specific functionality queries, maintenance inquiries, dependency updates, etc., are welcome. You can use our [issue template](https://github.com/EL-BID/Plantilla-de-repositorio/blob/master/docs/issue_template.md) for this purpose. 
 
-#### Crea un pull request: 
-Puedes crear nuevas funcionalidades, dar soporte y/o resolver issues en los repos con issues abiertos. Revisa nuestra [guía de contribuciones](https://github.com/EL-BID/Plantilla-de-repositorio/blob/master/CONTRIBUTING.md). 
+#### Create a pull request: 
+You can create new features, provide support, and/or resolve issues in repos with open issues. Please review our [contribution guide](https://github.com/EL-BID/Plantilla-de-repositorio/blob/master/CONTRIBUTING.md). 
 
-## Código de Conducta 
+## Code of Conduct 
 
-Nosotros como contribuyentes y administradores nos comprometemos a hacer de la participación en nuestro proyecto y nuestra comunidad una experiencia libre de acoso para todos, independientemente de la edad, dimensión corporal, discapacidad, etnia, identidad y expresión de género, nivel de experiencia, nacionalidad, apariencia física, raza, religión, identidad u orientación sexual. 
+We as members, contributors, and leaders pledge to make participation in our community a harassment-free experience for everyone, regardless of age, body size, visible or invisible disability, ethnicity, sex characteristics, gender identity and expression, level of experience, education, socio-economic status, nationality, personal appearance, race, religion, or sexual identity and orientation. 
 
-Antes de interactuar con Código para el Desarrollo y utilizar nuestros canales de comunicación te pedimos que revises nuestro [Código de Conducta](https://github.com/EL-BID/Plantilla-de-repositorio/blob/master/CODE-OF-CONDUCT.md) para mantener este espacio lo más seguro que se pueda para sus participantes. Recuerda que cualquier consulta que tengas la puedes enviar a code@iadb.org.  
-
- 
+Before interacting with Code for Development and using our communication channels, we ask that you review our [Code of Conduct](https://github.com/EL-BID/Plantilla-de-repositorio/blob/master/CODE-OF-CONDUCT.md) to help maintain a safe space for all participants. Remember that any inquiries you may have can be sent to code@iadb.org.
