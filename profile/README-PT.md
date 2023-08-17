@@ -1,7 +1,7 @@
 - Acceda a este READ.me en [Español](https://github.com/EL-BID/.github/blob/main/profile/README.md). 
 - Access this READ.me in [English](https://github.com/EL-BID/.github/blob/main/profile/README-EN.md). 
 
-<img src="https://raw.githubusercontent.com/EL-BID/.github/main/BID_Eslogan_Colores_MedRes.jpeg" alt="bid logo español" width="400"/>
+<img src="https://raw.githubusercontent.com/EL-BID/.github/main/Logo_Eslogan_PORT_Color.png" alt="bid logo español" width="400"/>
 
 # Código para o Desenvolvimento: O compromisso do BID com o código aberto 
 
