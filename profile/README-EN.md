@@ -1,7 +1,7 @@
 - Acceda a este READ.me en [español](https://github.com/EL-BID/.github/blob/main/profile/README.md). 
 - Acesse esse READ.me em [português](https://github.com/EL-BID/.github/blob/main/profile/README-PT.md).  
 
-<img src="https://raw.githubusercontent.com/EL-BID/.github/main/BID_Eslogan_Colores_MedRes.jpeg" alt="bid logo español" width="400"/>
+<img src="https://raw.githubusercontent.com/EL-BID/.github/main/IDB_Eslogan_Colores_MedRes.jpeg" alt="bid logo español" width="400"/>
 
 # Code for Development: The IDB's Commitment to Open Source 
 
