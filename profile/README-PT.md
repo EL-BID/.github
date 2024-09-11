@@ -53,6 +53,8 @@ Você pode criar novas funcionalidades, fornecer suporte e/ou resolver issues em
 
 Nós, como contribuintes e administradores, nos comprometemos a tornar a participação em nosso projeto e comunidade uma experiência livre de assédio para todos, independentemente de idade, tamanho corporal, deficiência, etnia, identidade e expressão de gênero, nível de experiência, nacionalidade, aparência física, raça, religião, identidade ou orientação sexual. 
 
+Para colaboradores de código aberto em nossa conta GitHub, é essencial seguir práticas de codificação seguras para minimizar riscos e proteger tanto a ferramenta que está sendo desenvolvida quanto os recursos implantados. Ao contribuir, pedimos que você revise e siga os padrões de segurança de código aberto para garantir um desenvolvimento seguro e confiável. A equipe do Código de Desenvolvimento monitora continuamente a segurança dos repositórios e nos reservamos o direito de alterar a visibilidade do repositório para privado se for detectado que práticas de codificação seguras não estão sendo seguidas.
+
 Antes de interagir com Código para o Desenvolvimento e usar nossos canais de comunicação, pedimos que você revise nosso [Código de Conduta](https://github.com/EL-BID/Plantilla-de-repositorio/blob/master/CODE-OF-CONDUCT.md) para ajudar a manter este espaço o mais seguro possível para todos os participantes. Lembre-se de que qualquer dúvida que você tenha pode ser enviada para code@iadb.org. 
   
 
