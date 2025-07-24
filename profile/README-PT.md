@@ -31,13 +31,13 @@ Convidamos você a contribuir com nossa comunidade de código aberto e profissio
 
 Estamos procurando ferramentas como aplicativos web e móveis, algoritmos e APIs que possam apoiar a gestão pública e o desenvolvimento social e econômico em diferentes escalas e contextos. Os critérios para publicação incluem possuir uma licença de código aberto, ter documentação abrangente que apoie a implementação da ferramenta e passar por uma análise de qualidade de código. 
 
-Ferramentas indicadas através deste [formulário](https://airtable.com/appqBwYkYJ59bamQ1/shrooKo1Nk4JBDQWV) serão consideradas para inclusão no repositório do Código para o Desenvolvimento. 
+Ferramentas indicadas através deste [formulário](https://cloud.mail.iadb.org/code4dev-share-code?page=SYC&UTMM=Organic&UTMS=&Lang=PT) serão consideradas para inclusão no repositório do Código para o Desenvolvimento. 
 
 ### 3. Compartilhe seu caso de uso 
 
 Compartilhe sua experiência e conhecimento criando um caso prático que mostre como você aproveitou ferramentas de código aberto em seus projetos. Ajude-nos a mostrar o impacto real das soluções de código aberto e junte-se a nós para moldar o futuro da gestão pública na América Latina e no Caribe. 
 
-Compartilhe seu caso de uso através deste [formulário](https://forms.office.com/r/wj4w1qsfyd). 
+Compartilhe seu caso de uso através deste [formulário](https://cloud.mail.iadb.org/Code4DevSCS?page=SCS&UTMM=Organic&UTMS=Website&Lang=PT). 
 
 ### 4. Contribua com as ferramentas desenvolvidas pelo BID 
 
