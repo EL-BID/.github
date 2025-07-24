@@ -31,13 +31,13 @@ We invite you to contribute to our open-source community and public management p
 
 We are looking for tools such as web and mobile applications, algorithms, and APIs that can support public management and social and economic development at different scales and contexts. Criteria for publication include having an open-source license, having comprehensive documentation to support tool implementation, and undergoing a code quality analysis. 
 
-Tools nominated through this [form](https://airtable.com/appqBwYkYJ59bamQ1/shrooKo1Nk4JBDQWV) will be considered for inclusion in the Code for Development repository. 
+Tools nominated through this [form](https://cloud.mail.iadb.org/code4dev-share-code?page=SYC&UTMM=Organic&UTMS=&Lang=EN) will be considered for inclusion in the Code for Development repository. 
 
 ### 3. Share Your Use Case 
 
 Share your experience and knowledge by creating a practical case that demonstrates how you have leveraged open-source tools in your projects. Help us showcase the real impact of open-source solutions and join us in shaping the future of public management in Latin America and the Caribbean. 
 
-Share your use case through this [form](https://forms.office.com/r/wj4w1qsfyd). 
+Share your use case through this [form](https://cloud.mail.iadb.org/Code4DevSCS?page=SCS&UTMM=Organic&UTMS=Website&Lang=EN). 
 
 ### 4. Contribute to IDB-Developed Tools 
 
