@@ -9,11 +9,11 @@ Welcome to the Inter-American Development Bank’s GitHub repository. Here, you 
 
 The IDB was the first multilateral institution to establish a repository of open-source software for public management, with the goal of amplifying the impact of public managers in Latin America and the Caribbean. We believe that by providing open-source software tailored to the needs of governments, we can promote efficiency, effectiveness, and innovation in public management practices. 
 
-To access the complete repository of the IDB's open-source initiative, visit [Code for Development](http://code.iadb.org/en). There, you will find an extensive repository of over 200 tools, including not only tools developed internally by IDB experts and hosted on this GitHub/EL-BID, but also many others developed by renowned universities, non-profit organizations, technology companies, and governments, all curated by the IDB. 
+To access the complete repository of the IDB's open-source initiative, visit [Code for Development](https://knowledge.iadb.org/en/code-development). There, you will find an extensive repository of over 200 tools, including not only tools developed internally by IDB experts and hosted on this GitHub/EL-BID, but also many others developed by renowned universities, non-profit organizations, technology companies, and governments, all curated by the IDB. 
 
 All these tools are strategically designed to enhance public management practices throughout the region. They can be used freely, modified, and incorporated as components of other products. 
 
-Visit our website to learn about our open-source initiative, [Code for Development](http://code.iadb.org/en). 
+Visit our website to learn about our open-source initiative, [Code for Development](https://knowledge.iadb.org/en/code-development). 
 
 ## Contribute 
 
@@ -23,7 +23,7 @@ By joining the Code for Development community, you'll be at the forefront of tra
 
 As a member, you'll have exclusive access to a community of passionate individuals dedicated to open-source and public management. You'll also gain access to monthly workshops, various communication channels within the network, support for tool reuse, and other valuable resources. 
 
-Register [here](https://code.iadb.org/en/code4dev). 
+Register [here](https://knowledge.iadb.org/en/code-development/join-our-community). 
 
 ### 2. Share Your Code  
 
