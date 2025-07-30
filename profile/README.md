@@ -23,7 +23,7 @@ Al unirte a la comunidad de Código para el Desarrollo, estarás a la vanguardia
 
 Como miembro obtendrá acceso exclusivo a un ecosistema de personas apasionadas dedicadas al código abierto y la gestión pública y tendrá acceso a talleres mensuales, diferentes canales de comunicación dentro de la red, apoyo para reutilización de herramientas y otros recursos valiosos.  
 
-Regístrate [aquí](https://code.iadb.org/es/code4dev).  
+Regístrate [aquí](https://knowledge.iadb.org/es/codigo-para-el-desarrollo/unase-la-comunidad).  
 
 ### 2. Comparte tu código  
 
