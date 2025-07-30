@@ -9,11 +9,11 @@ Bem-vindo ao GitHub do Banco Interamericano de Desenvolvimento. Aqui, você enco
 
 O BID foi a primeira instituição multilateral a estabelecer um repositório de código aberto para gestão pública, com o claro objetivo de fornecer ferramentas estratégicas de código aberto para gestores públicos na América Latina e no Caribe, permitindo-lhes ampliar o impacto de seu trabalho. Acreditamos que, ao fornecer software de código aberto adaptado às necessidades dos governos, podemos promover eficiência, eficácia e inovação nas práticas de gestão pública. 
 
-Para acessar o repositório completo da iniciativa de código aberto do BID, visite [Código para o Desenvolvimento](http://code.iadb.org/pt). Lá, você encontrará um extenso repositório com mais de 200 ferramentas, incluindo não apenas ferramentas criadas internamente por especialistas do BID e hospedadas neste GitHub/EL-BID, mas também muitas outras desenvolvidas por universidades renomadas, organizações sem fins lucrativos, empresas de tecnologia e governos, todas curadas pelo BID. 
+Para acessar o repositório completo da iniciativa de código aberto do BID, visite [Código para o Desenvolvimento](https://knowledge.iadb.org/pt-br/codigo-para-o-desenvolvimento). Lá, você encontrará um extenso repositório com mais de 200 ferramentas, incluindo não apenas ferramentas criadas internamente por especialistas do BID e hospedadas neste GitHub/EL-BID, mas também muitas outras desenvolvidas por universidades renomadas, organizações sem fins lucrativos, empresas de tecnologia e governos, todas curadas pelo BID. 
 
 Todas essas ferramentas foram estrategicamente desenhadas para aprimorar as práticas de gestão pública em toda a região. Elas podem ser usadas livremente, modificadas e incorporadas como componentes de outros produtos. 
 
-Visite nosso site para saber mais sobre nossa iniciativa de código aberto, [Código para o Desenvolvimento](http://code.iadb.org/pt). 
+Visite nosso site para saber mais sobre nossa iniciativa de código aberto, [Código para o Desenvolvimento](https://knowledge.iadb.org/pt-br/codigo-para-o-desenvolvimento). 
 
 ## Contribua 
 
@@ -23,7 +23,7 @@ Ao se juntar à comunidade Código para o Desenvolvimento, você estará na vang
 
 Como membro, você terá acesso exclusivo a uma comunidade de pessoas apaixonadas dedicadas ao código aberto e à gestão pública. Você também terá acesso a workshops mensais, diversos canais de comunicação dentro da rede, suporte para reutilização de ferramentas e outros recursos valiosos. 
 
-Registre-se [aqui](https://code.iadb.org/pt/code4dev). 
+Registre-se [aqui](https://knowledge.iadb.org/pt-br/codigo-para-o-desenvolvimento/faca-parte-da-comunidade). 
 
 ### 2. Compartilhe seu código  
 
