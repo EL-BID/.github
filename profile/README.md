@@ -7,7 +7,7 @@
 
 Bienvenido al GitHub del Banco Interamericano de Desarrollo (BID). Aquí encontrarás todas las herramientas desarrolladas por el Banco en código abierto.  
 
-El BID fue la primera multilateral a establecer un repositorio de código abierto para la gestión pública, con el claro objetivo de dotar a los gestores públicos de América Latina y el Caribe de herramientas estratégicas de código abierto que les permitan amplificar el impacto de su trabajo. Creemos que, al proporcionar software de código abierto adaptado a las necesidades de los gobiernos, podemos fomentar la eficiencia la eficacia e innovación en las prácticas de gestión pública. 
+El BID fue la primera multilateral en establecer un repositorio de código abierto para la gestión pública, con el claro objetivo de dotar a los gestores públicos de América Latina y el Caribe de herramientas estratégicas de código abierto que les permitan amplificar el impacto de su trabajo. Creemos que, al proporcionar software de código abierto adaptado a las necesidades de los gobiernos, podemos fomentar la eficiencia la eficacia e innovación en las prácticas de gestión pública. 
 
 Para acceder al repositorio completo de la iniciativa de código abierto del BID, visita [Código para el Desarrollo](https://knowledge.iadb.org/es/codigo-para-el-desarrollo) . Allí encontrarás un amplio repositorio de más de 200 herramientas, que incluyen no sólo las herramientas creadas internamente por expertos del BID y alojadas en ese GitHub/EL-BID, sino también muchas otras desarrolladas por universidades de renombre, organizaciones sin fines de lucro, empresas tecnológicas y gobiernos y que han pasado por una curaduría del BID. 
 
