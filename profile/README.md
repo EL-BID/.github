@@ -33,6 +33,8 @@ Buscamos herramientas como aplicaciones web y móviles, algoritmos y APIs que pu
 
 Las herramientas nominadas a través de este [formulario](https://cloud.mail.iadb.org/code4dev-share-code?page=SYC&UTMM=Organic&UTMS=&Lang=ES) serán consideradas para su inclusión en el repositorio de Código para el Desarrollo. 
 
+Puedes leer con más detalle sobre nuestro proceso en nuestra [guía de publicación](https://el-bid.github.io/guia-de-publicacion/).
+
 ### 3. Comparte tu caso de uso 
 
 Comparte tu experiencia y conocimientos creando un caso práctico que muestre cómo has aprovechado las herramientas de código abierto en tus proyectos. Ayúdanos a mostrar el impacto real de las soluciones de código abierto y únete para dar forma al futuro de la gestión pública en América Latina y el Caribe. 
