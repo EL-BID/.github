@@ -49,6 +49,28 @@ Issues related to installation problems, specific functionality queries, mainten
 #### Create a pull request: 
 You can create new features, provide support, and/or resolve issues in repos with open issues. Please review our [contribution guide](https://github.com/EL-BID/Plantilla-de-repositorio/blob/master/CONTRIBUTING.md). 
 
+### 5. Our libraries on PyPI
+
+In addition to our GitHub repositories, we also publish Python packages on **PyPI** through our official account: [code4dev](https://pypi.org/user/code4dev/).
+
+Currently, we have **5 libraries** published:
+
+- `viasegura`
+- `pavimentados`
+- `urbantrips`
+- `urbanpy`
+- `idbsocialdatapy`
+
+You can install them with `pip`:
+
+```bash
+pip install viasegura
+pip install pavimentados
+pip install urbantrips
+pip install urbanpy
+pip install idbsocialdatapy
+```
+
 ## Code of Conduct 
 
 We as members, contributors, and leaders pledge to make participation in our community a harassment-free experience for everyone, regardless of age, body size, visible or invisible disability, ethnicity, sex characteristics, gender identity and expression, level of experience, education, socio-economic status, nationality, personal appearance, race, religion, or sexual identity and orientation. 
