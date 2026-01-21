@@ -45,6 +45,28 @@ Comparte tu caso de uso a través de ese [formulario](https://cloud.mail.iadb.or
 
 Colabora con los equipos responsables por las herramientas de código abierto del BID de las siguientes formas: 
 
+### 5. Nuestras librerías en PyPI
+
+Además de nuestros repositorios en GitHub, también publicamos paquetes de Python en **PyPI** desde nuestra cuenta oficial: [code4dev](https://pypi.org/user/code4dev/).
+
+Actualmente contamos con **5 librerías** publicadas:
+
+- `viasegura`
+- `pavimentados`
+- `urbantrips`
+- `urbanpy`
+- `idbsocialdatapy`
+
+Puedes instalarlas con `pip`:
+
+```bash
+pip install viasegura
+pip install pavimentados
+pip install urbantrips
+pip install urbanpy
+pip install idbsocialdatapy
+```
+
 #### Crea un issue: 
 Son bienvenidos los issues sobre problemas de instalación, consultas y explicación específica de alguna funcionalidad, consultas sobre el mantenimiento, actualización de dependencias, etc. Puedes usar nuestra [plantilla de issue](https://github.com/EL-BID/Plantilla-de-repositorio/blob/master/docs/issue_template.md) para esto. 
 
