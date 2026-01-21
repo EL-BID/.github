@@ -45,6 +45,12 @@ Comparte tu caso de uso a través de ese [formulario](https://cloud.mail.iadb.or
 
 Colabora con los equipos responsables por las herramientas de código abierto del BID de las siguientes formas: 
 
+#### Crea un issue: 
+Son bienvenidos los issues sobre problemas de instalación, consultas y explicación específica de alguna funcionalidad, consultas sobre el mantenimiento, actualización de dependencias, etc. Puedes usar nuestra [plantilla de issue](https://github.com/EL-BID/Plantilla-de-repositorio/blob/master/docs/issue_template.md) para esto. 
+
+#### Crea un pull request: 
+Puedes crear nuevas funcionalidades, dar soporte y/o resolver issues en los repos con issues abiertos. Revisa nuestra [guía de contribuciones](https://github.com/EL-BID/Plantilla-de-repositorio/blob/master/CONTRIBUTING.md). 
+
 ### 5. Nuestras librerías en PyPI
 
 Además de nuestros repositorios en GitHub, también publicamos paquetes de Python en **PyPI** desde nuestra cuenta oficial: [code4dev](https://pypi.org/user/code4dev/).
@@ -66,13 +72,6 @@ pip install urbantrips
 pip install urbanpy
 pip install idbsocialdatapy
 ```
-
-#### Crea un issue: 
-Son bienvenidos los issues sobre problemas de instalación, consultas y explicación específica de alguna funcionalidad, consultas sobre el mantenimiento, actualización de dependencias, etc. Puedes usar nuestra [plantilla de issue](https://github.com/EL-BID/Plantilla-de-repositorio/blob/master/docs/issue_template.md) para esto. 
-
-#### Crea un pull request: 
-Puedes crear nuevas funcionalidades, dar soporte y/o resolver issues en los repos con issues abiertos. Revisa nuestra [guía de contribuciones](https://github.com/EL-BID/Plantilla-de-repositorio/blob/master/CONTRIBUTING.md). 
-
 ## Código de Conducta 
 
 Nosotros como contribuyentes y administradores nos comprometemos a hacer de la participación en nuestro proyecto y nuestra comunidad una experiencia libre de acoso para todos, independientemente de la edad, dimensión corporal, discapacidad, etnia, identidad y expresión de género, nivel de experiencia, nacionalidad, apariencia física, raza, religión, identidad u orientación sexual. 
