@@ -1,14 +1,23 @@
 - Access this README in [English](https://github.com/EL-BID/.github/blob/main/profile/README-EN.md). 
 - Acesse esse README em [português](https://github.com/EL-BID/.github/blob/main/profile/README-PT.md).  
 
-<img src="https://raw.githubusercontent.com/EL-BID/.github/main/BID_Eslogan_Colores_MedRes.jpeg" alt="bid logo español" width="400"/>
+<p align="center">
+  <img src="https://raw.githubusercontent.com/EL-BID/.github/main/BID_Eslogan_Colores_MedRes.jpeg" alt="BID - Mejorando vidas" width="280">
+</p>
+<h3 align="center">Código para el Desarrollo</h3>
+<p align="center">El compromiso del BID con el código abierto</p> 
 
-# Código para el Desarrollo: El compromiso del BID con código abierto 
+<p align="center">
+  <a href="https://knowledge.iadb.org/es/codigo-para-el-desarrollo">Catálogo</a> · <a href="https://knowledge.iadb.org/es/codigo-para-el-desarrollo/unase-la-comunidad">Comunidad</a> · <a href="mailto:code@iadb.org">Contacto</a>
+</p>
 
-Bienvenido al GitHub del Banco Interamericano de Desarrollo (BID). Aquí encontrarás todas las herramientas desarrolladas por el Banco en código abierto. 
+--- 
 
-  <img src="https://raw.githubusercontent.com/EL-BID/.github/main/profile/stats.svg" alt="Dashboard de estadísticas de repositorios públicos de EL-BID" width="680">
+<a href="">
+  <img src="https://raw.githubusercontent.com/EL-BID/.github/main/profile/stats.svg" alt="Dashboard de estadísticas de repositorios públicos de EL-BID" width="100%">
+</a>
 
+---
 
 El BID fue la primera multilateral en establecer un repositorio de código abierto para la gestión pública, con el claro objetivo de dotar a los gestores públicos de América Latina y el Caribe de herramientas estratégicas de código abierto que les permitan amplificar el impacto de su trabajo. Creemos que, al proporcionar software de código abierto adaptado a las necesidades de los gobiernos, podemos fomentar la eficiencia la eficacia e innovación en las prácticas de gestión pública. 
 
