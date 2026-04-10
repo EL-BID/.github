@@ -5,7 +5,11 @@
 
 # Código para el Desarrollo: El compromiso del BID con código abierto 
 
-Bienvenido al GitHub del Banco Interamericano de Desarrollo (BID). Aquí encontrarás todas las herramientas desarrolladas por el Banco en código abierto.  
+Bienvenido al GitHub del Banco Interamericano de Desarrollo (BID). Aquí encontrarás todas las herramientas desarrolladas por el Banco en código abierto. 
+
+<a href="https://el-bid.github.io/c4d-repos-stats/">
+  <img src="https://raw.githubusercontent.com/EL-BID/.github/main/profile/stats.svg" alt="Dashboard de estadísticas de repositorios públicos de EL-BID" width="680">
+</a>
 
 El BID fue la primera multilateral en establecer un repositorio de código abierto para la gestión pública, con el claro objetivo de dotar a los gestores públicos de América Latina y el Caribe de herramientas estratégicas de código abierto que les permitan amplificar el impacto de su trabajo. Creemos que, al proporcionar software de código abierto adaptado a las necesidades de los gobiernos, podemos fomentar la eficiencia la eficacia e innovación en las prácticas de gestión pública. 
 
