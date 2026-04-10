@@ -1,0 +1,40 @@
+name: Update Org README Stats
+
+on:
+  schedule:
+    # Runs daily at 06:00 UTC (01:00 AM Lima)
+    - cron: '0 6 * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  update-stats:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout .github repo
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Install dependencies
+        run: pip install requests
+
+      - name: Generate SVG dashboard
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          python profile/generate_stats_svg.py
+
+      - name: Commit and push
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add profile/stats.svg
+          git diff --staged --quiet && echo "No changes" && exit 0
+          git commit -m "📊 Update public repo stats [automated]"
+          git push
