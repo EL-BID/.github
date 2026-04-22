@@ -2,8 +2,8 @@ name: Update Org README Stats
 
 on:
   schedule:
-    # Runs daily at 06:00 UTC (01:00 AM Lima)
-    - cron: '0 6 * * *'
+    # Runs daily at 08:00 UTC (after c4d-repos-stats finishes at ~07:00 UTC)
+    - cron: '0 8 * * *'
   workflow_dispatch:
 
 permissions:
@@ -18,19 +18,23 @@ jobs:
         with:
           token: ${{ secrets.ORG_PAT }}
 
+      - name: Checkout c4d-repos-stats data
+        uses: actions/checkout@v4
+        with:
+          repository: EL-BID/c4d-repos-stats
+          path: c4d-data
+          sparse-checkout: data/expanded
+          sparse-checkout-cone-mode: true
+
       - name: Setup Python
         uses: actions/setup-python@v5
         with:
           python-version: '3.12'
 
-      - name: Install dependencies
-        run: pip install requests
-
       - name: Generate SVG dashboard
         env:
           GH_TOKEN: ${{ secrets.ORG_PAT }}
-        run: |
-          python profile/generate_stats_svg.py
+        run: python profile/generate_stats_svg.py
 
       - name: Commit and push
         run: |
