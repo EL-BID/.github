@@ -25,6 +25,7 @@ jobs:
           path: c4d-data
           sparse-checkout: data/expanded
           sparse-checkout-cone-mode: true
+          token: ${{ secrets.ORG_PAT }}
 
       - name: Setup Python
         uses: actions/setup-python@v5
