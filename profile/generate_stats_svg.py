@@ -6,14 +6,14 @@ Only uses PUBLIC repo data.
 
 Data sources:
   - GitHub API: public repos, stars, forks, followers
-  - c4d-repos-stats repo CSVs: PyPI downloads (BigQuery), GitHub traffic (views/clones)
+  - c4d-repos-stats CSVs (checked out locally by the workflow):
+    PyPI downloads (BigQuery), GitHub traffic (views/clones)
 """
 import csv
-import io
-import json
 import os
 import requests
 from datetime import datetime, timezone
+from pathlib import Path
 
 ORG = "EL-BID"
 TOKEN = os.environ.get("GH_TOKEN", "")
@@ -23,10 +23,8 @@ HEADERS = {
     "X-GitHub-Api-Version": "2022-11-28",
 }
 
-# Raw CSV URLs from c4d-repos-stats (public repo, no auth needed)
-BASE_RAW = "https://raw.githubusercontent.com/EL-BID/c4d-repos-stats/main/data/expanded"
-PYPI_COUNTRY_CSV = f"{BASE_RAW}/pypi_downloads_by_country.csv"
-DAILY_TRAFFIC_CSV = f"{BASE_RAW}/daily_traffic.csv"
+# Local path to the checked-out c4d-repos-stats data
+C4D_DATA = Path("c4d-data/data/expanded")
 
 OUTPUT_PATH = "profile/stats.svg"
 
@@ -57,21 +55,17 @@ def fetch_org_followers():
     return resp.json().get("followers", 0)
 
 
-def fetch_csv_from_url(url):
-    """Fetch a CSV from a raw GitHub URL and return list of dicts."""
-    try:
-        resp = requests.get(url, timeout=30)
-        resp.raise_for_status()
-        text = resp.text.replace('\r\n', '\n').replace('\r', '\n')
-        reader = csv.DictReader(io.StringIO(text))
-        return list(reader)
-    except Exception as e:
-        print(f"  [WARN] Could not fetch {url}: {e}")
+def read_local_csv(filename):
+    """Read a CSV from the locally checked-out c4d-repos-stats data."""
+    path = C4D_DATA / filename
+    if not path.exists():
+        print(f"  [WARN] File not found: {path}")
         return []
+    with open(path, "r", encoding="utf-8-sig") as f:
+        return list(csv.DictReader(f))
 
 
 def compute_pypi_totals(rows):
-    """Compute total downloads per package from pypi_downloads_by_country.csv."""
     by_pkg = {}
     total = 0
     for r in rows:
@@ -79,13 +73,11 @@ def compute_pypi_totals(rows):
         dl = int(r.get("downloads", "0").strip())
         by_pkg[pkg] = by_pkg.get(pkg, 0) + dl
         total += dl
-    # Sort descending
     sorted_pkgs = sorted(by_pkg.items(), key=lambda x: -x[1])
     return total, sorted_pkgs
 
 
 def compute_traffic_totals(rows):
-    """Compute total clones and views from daily_traffic.csv."""
     clones = 0
     views = 0
     for r in rows:
@@ -109,8 +101,6 @@ def format_number(n):
 def format_compact(n):
     if n >= 1_000_000:
         return f"{n / 1_000_000:.1f}M"
-    if n >= 10_000:
-        return f"{n / 1_000:.1f}K"
     if n >= 1_000:
         return f"{n / 1_000:.1f}K"
     return str(n)
@@ -209,7 +199,6 @@ def generate_svg(total_repos, total_stars, total_forks, followers,
             add(f'<line x1="{i * card_w}" y1="{y + 16}" x2="{i * card_w}" y2="{y + 52}" stroke="{BORDER}" stroke-width="0.5"/>')
         add(f'<text x="{cx}" y="{y + 34}" font-family="system-ui,sans-serif" font-size="20" font-weight="500" fill="{color}" text-anchor="middle">{val}</text>')
         add(f'<text x="{cx}" y="{y + 48}" font-family="system-ui,sans-serif" font-size="8.5" fill="{MUTED}" text-anchor="middle" letter-spacing="0.4" font-weight="500">{label.upper()}</text>')
-
     y += 58
 
     # ── KPI row 2: PyPI total ──
@@ -252,9 +241,7 @@ def generate_svg(total_repos, total_stars, total_forks, followers,
     for i, (name, count, pct) in enumerate(languages):
         color = LANG_COLORS.get(name, "#8899AA")
         seg_w = max(2, round(bar_total_w * pct / 100))
-        rx_first = ' rx="3.5"' if i == 0 else ""
-        rx_last = ' rx="3.5"' if i == len(languages) - 1 else ""
-        add(f'<rect x="{bar_x}" y="{y}" width="{seg_w}" height="7" fill="{color}"{rx_first}{rx_last}/>')
+        add(f'<rect x="{bar_x}" y="{y}" width="{seg_w}" height="7" fill="{color}"/>')
         bar_x += seg_w
     y += 13
     lx = 20
@@ -300,7 +287,7 @@ def generate_svg(total_repos, total_stars, total_forks, followers,
     total_h = y + 4
     svg = f'''<svg xmlns="http://www.w3.org/2000/svg" width="680" viewBox="0 0 {W} {total_h}" role="img">
 <title>github.com/EL-BID en numeros</title>
-<desc>Dashboard de estadisticas: {total_repos} repos publicos, {total_stars} estrellas, {format_number(pypi_total)} descargas PyPI</desc>
+<desc>Dashboard: {total_repos} repos, {total_stars} estrellas, {format_number(pypi_total)} descargas PyPI</desc>
 <rect width="{W}" height="{total_h}" rx="8" fill="{WHITE}" stroke="{BORDER}" stroke-width="0.5"/>
 {''.join(svg_parts)}
 </svg>'''
@@ -329,15 +316,15 @@ def main():
     languages = compute_language_stats(repos)
     print(f"  Languages: {', '.join(f'{n} ({p}%)' for n, _, p in languages)}")
 
-    print("Fetching PyPI data from c4d-repos-stats...")
-    pypi_rows = fetch_csv_from_url(PYPI_COUNTRY_CSV)
+    print(f"Reading PyPI data from {C4D_DATA}...")
+    pypi_rows = read_local_csv("pypi_downloads_by_country.csv")
     pypi_total, pypi_packages = compute_pypi_totals(pypi_rows)
     print(f"  PyPI total: {pypi_total:,} downloads across {len(pypi_packages)} packages")
     for pkg, dl in pypi_packages:
         print(f"    {pkg}: {dl:,}")
 
-    print("Fetching GitHub traffic from c4d-repos-stats...")
-    traffic_rows = fetch_csv_from_url(DAILY_TRAFFIC_CSV)
+    print(f"Reading GitHub traffic from {C4D_DATA}...")
+    traffic_rows = read_local_csv("daily_traffic.csv")
     total_clones, total_views = compute_traffic_totals(traffic_rows)
     print(f"  Views: {total_views:,}, Clones: {total_clones:,}")
 
