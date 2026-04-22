@@ -171,7 +171,7 @@ def generate_svg(total_repos, total_stars, total_forks, followers,
     # ── Header ──
     add(f'<rect x="0" y="{y}" width="{W}" height="46" fill="{WHITE}"/>')
     add(f'<line x1="0" y1="46" x2="{W}" y2="46" stroke="{BLUE}" stroke-width="2"/>')
-    add(f'<text x="20" y="29" font-family="system-ui,sans-serif" font-size="14" font-weight="600" fill="{NAVY}" letter-spacing="0.2">github.com/EL-BID en numeros</text>')
+    add(f'<text x="20" y="29" font-family="system-ui,sans-serif" font-size="14" font-weight="600" fill="{NAVY}" letter-spacing="0.2">github.com/EL-BID en números</text>')
     add(f'<text x="{W - 20}" y="29" font-family="system-ui,sans-serif" font-size="10" fill="{MUTED}" text-anchor="end">{updated_at}</text>')
     y = 48
 
@@ -286,7 +286,7 @@ def generate_svg(total_repos, total_stars, total_forks, followers,
 
     total_h = y + 4
     svg = f'''<svg xmlns="http://www.w3.org/2000/svg" width="680" viewBox="0 0 {W} {total_h}" role="img">
-<title>github.com/EL-BID en numeros</title>
+<title>github.com/EL-BID en números</title>
 <desc>Dashboard: {total_repos} repos, {total_stars} estrellas, {format_number(pypi_total)} descargas PyPI</desc>
 <rect width="{W}" height="{total_h}" rx="8" fill="{WHITE}" stroke="{BORDER}" stroke-width="0.5"/>
 {''.join(svg_parts)}
