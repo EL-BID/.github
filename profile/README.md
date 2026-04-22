@@ -11,13 +11,6 @@
   <a href="https://knowledge.iadb.org/es/codigo-para-el-desarrollo">Catálogo</a> · <a href="https://knowledge.iadb.org/es/codigo-para-el-desarrollo/unase-la-comunidad">Comunidad</a> · <a href="mailto:code@iadb.org">Contacto</a>
 </p>
 
---- 
-
-<a href="">
-  <img src="https://raw.githubusercontent.com/EL-BID/.github/main/profile/stats.svg" alt="Dashboard de estadísticas de repositorios públicos de EL-BID" width="100%">
-</a>
-
----
 
 El BID fue la primera multilateral en establecer un repositorio de código abierto para la gestión pública, con el claro objetivo de dotar a los gestores públicos de América Latina y el Caribe de herramientas estratégicas de código abierto que les permitan amplificar el impacto de su trabajo. Creemos que, al proporcionar software de código abierto adaptado a las necesidades de los gobiernos, podemos fomentar la eficiencia la eficacia e innovación en las prácticas de gestión pública. 
 
@@ -93,4 +86,10 @@ Para los contribuidores de código abierto en nuestra cuenta de GitHub, es funda
 
 Antes de interactuar con Código para el Desarrollo y utilizar nuestros canales de comunicación te pedimos que revises nuestro [Código de Conducta](https://github.com/EL-BID/Plantilla-de-repositorio/blob/master/CODE-OF-CONDUCT.md) para mantener este espacio lo más seguro que se pueda para sus participantes. Recuerda que cualquier consulta que tengas la puedes enviar a code@iadb.org.  
 
- 
+ --- 
+
+<a href="">
+  <img src="https://raw.githubusercontent.com/EL-BID/.github/main/profile/stats.svg" alt="Dashboard de estadísticas de repositorios públicos de EL-BID" width="100%">
+</a>
+
+---
